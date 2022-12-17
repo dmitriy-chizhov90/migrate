@@ -13,9 +13,9 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database"
-	"github.com/golang-migrate/migrate/v4/database/multistmt"
+	"github.com/dmitriy-chizhov90/migrate/v4"
+	"github.com/dmitriy-chizhov90/migrate/v4/database"
+	"github.com/dmitriy-chizhov90/migrate/v4/database/multistmt"
 	"github.com/hashicorp/go-multierror"
 
 	ydbsql "github.com/ydb-platform/ydb-go-sql"
